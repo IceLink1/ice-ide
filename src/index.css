@@ -13,3 +13,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn{
+  padding: 20px 10px;
+  border: none;
+  background: #581e7d;
+  border-radius: 5px;
+}
