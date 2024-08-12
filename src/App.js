@@ -34,7 +34,7 @@ function App() {
   return (
     <div style={{ padding: "20px"}}>
       <h1>ICE Editor</h1>
-      <div style={{ display:"flex", border:"1px solid black" }}>
+      <div style={{ display:"flex", border:"1px solid white" }}>
         {/* editor */}
         <div style={{width:"100%"}}>
           <button onClick={()=>setActive("HTML")} style={{color:active==="HTML"?"red":"black"}}>HTML</button>
