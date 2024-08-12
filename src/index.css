@@ -14,8 +14,10 @@ code {
     monospace;
 }
 .btn{
-  padding: 20px 10px;
-  border: none;
-  background: #581e7d;
-  border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    color: #fff;
+    border: none;
+    background: #581e7d;
+    border-radius: 5px;
 }
