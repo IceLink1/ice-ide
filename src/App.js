@@ -37,9 +37,9 @@ function App() {
       <div style={{ display:"flex", border:"1px solid white" }}>
         {/* editor */}
         <div style={{width:"100%"}}>
-          <button className="btn" onClick={()=>setActive("HTML")} style={{color:active==="HTML"?"red":"black"}}>HTML</button>
-          <button className="btn" onClick={()=>setActive("CSS")} style={{color:active==="CSS"?"red":"black"}}>CSS</button>
-          <button className="btn" onClick={()=>setActive("JS")} style={{color:active==="JS"?"red":"black"}}>JS</button>
+          <button className="btn" onClick={()=>setActive("HTML")} style={{color:active==="HTML"?"red":"white"}}>HTML</button>
+          <button className="btn" onClick={()=>setActive("CSS")} style={{color:active==="CSS"?"red":"white"}}>CSS</button>
+          <button className="btn" onClick={()=>setActive("JS")} style={{color:active==="JS"?"red":"white"}}>JS</button>
 
           {active==="HTML" && 
           <Editor
